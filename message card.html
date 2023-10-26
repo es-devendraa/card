@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+
+    <style>
+        
+      .card {
+        width: 60%;
+        height: 65px;
+        margin-top: 20%;
+        margin-left: 25%;
+        border-radius: 10px;
+        background-color: #dddfe3;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+      }
+
+      .text {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        background-color: #dddfe3;
+      }
+      .text span {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px 10px 1px 0;
+      }
+
+      .text p {
+        margin: 1px 10px 10px 0;
+      }
+      .text span p {
+        margin-left: 20px;
+      }
+
+      p{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      button {
+        width: 10%;
+        height: 30px;
+        margin: 10px 0;
+        border-radius: 20px;
+        font-size: 16px;
+        background-color: grey;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="text">
+        <span>Devendra</span>
+        <p>
+          Hi my name is Devendra, i am a Web Developer, this is my Tech Stack - Html, Css, Js, Reactjs, Redux, Sql, Mysql
+        </p>
+      </div>
+      <button>click</button>
+    </div>
+  </body>
+</html>
